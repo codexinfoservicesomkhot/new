@@ -5,7 +5,7 @@ import { useAuth } from "../../store/AuthContext.jsx";
 import { ROLE_META } from "../../services/authApi.js";
 
 const LINKS = [
-  { label: "Categories", hash: "#categories" },
+  { label: "Categories", to:"/categories" },
   { label: "Features", hash: "#features" },
   { label: "How it works", hash: "#how" },
   { label: "Examples", hash: "#examples" },
